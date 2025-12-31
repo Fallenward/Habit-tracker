@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <style>
+      .bg { fill:#ffffff; }
+      .frame { fill:none; stroke:#111827; stroke-width:2; rx:24; ry:24; }
+      .muted { fill:#6b7280; font-family: Inter, Arial, sans-serif; font-size:14px; }
+      .h1 { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:22px; font-weight:700; }
+      .h2 { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:16px; font-weight:700; }
+      .text { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:14px; }
+      .pill { fill:#f3f4f6; stroke:#d1d5db; stroke-width:1; }
+      .card { fill:#ffffff; stroke:#e5e7eb; stroke-width:2; }
+      .btn { fill:#111827; }
+      .btnText { fill:#ffffff; font-family: Inter, Arial, sans-serif; font-size:14px; font-weight:700; }
+      .chipText { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:12px; font-weight:600; }
+      .icon { fill:#111827; }
+      .divider { stroke:#e5e7eb; stroke-width:2; }
+      .accent { fill:#111827; }
+      .outline { fill:none; stroke:#111827; stroke-width:2; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="390" height="844"/>
+<rect class="frame" x="14" y="14" width="362" height="816" rx="34" ry="34"/>
+<text class="muted" x="34" y="36" text-anchor="start">9:41</text>
+<text class="muted" x="316" y="36" text-anchor="end">●●●</text>
+<text class="h1" x="32" y="84" text-anchor="start">Today</text>
+<text class="muted" x="32" y="106" text-anchor="start">Sun • Dec 21</text>
+<rect class="pill" x="32" y="134" width="157.0" height="42" rx="18" ry="18"/>
+<text class="chipText" x="110.5" y="161" text-anchor="middle">+ Add Habit</text>
+<rect class="pill" x="201.0" y="134" width="157.0" height="42" rx="18" ry="18"/>
+<text class="chipText" x="279.5" y="161" text-anchor="middle">Edit Schedule</text>
+<rect class="card" x="32" y="194" width="326" height="86" rx="18" ry="18"/>
+<circle class="outline" cx="50" cy="237.0" r="14"/>
+<text class="h2" x="76" y="228" text-anchor="start">Drink water</text>
+<text class="muted" x="76" y="252" text-anchor="start">Daily • 8 cups</text>
+<rect class="btn" x="272" y="216" width="70" height="42" rx="16" ry="16"/>
+<text class="btnText" x="307" y="243" text-anchor="middle">Done</text>
+<rect class="card" x="32" y="292" width="326" height="86" rx="18" ry="18"/>
+<circle cx="50" cy="335.0" r="14" fill="#111827" stroke="#111827" stroke-width="2"/>
+<text class="btnText" x="50" y="340.0" text-anchor="middle">✓</text>
+<text class="h2" x="76" y="326" text-anchor="start">Read 20 minutes</text>
+<text class="muted" x="76" y="350" text-anchor="start">Daily • evening</text>
+<rect class="pill" x="272" y="314" width="70" height="42" rx="16" ry="16"/>
+<text class="chipText" x="307" y="341" text-anchor="middle">Undo</text>
+<rect class="card" x="32" y="390" width="326" height="86" rx="18" ry="18"/>
+<circle class="outline" cx="50" cy="433.0" r="14"/>
+<text class="h2" x="76" y="424" text-anchor="start">Workout</text>
+<text class="muted" x="76" y="448" text-anchor="start">3×/week • Mon/Wed/Fri</text>
+<rect class="btn" x="272" y="412" width="70" height="42" rx="16" ry="16"/>
+<text class="btnText" x="307" y="439" text-anchor="middle">Done</text>
+<rect class="card" x="32" y="488" width="326" height="86" rx="18" ry="18"/>
+<circle cx="50" cy="531.0" r="14" fill="#111827" stroke="#111827" stroke-width="2"/>
+<text class="btnText" x="50" y="536.0" text-anchor="middle">✓</text>
+<text class="h2" x="76" y="522" text-anchor="start">Meditate</text>
+<text class="muted" x="76" y="546" text-anchor="start">Daily • 10 min</text>
+<rect class="pill" x="272" y="510" width="70" height="42" rx="16" ry="16"/>
+<text class="chipText" x="307" y="537" text-anchor="middle">Undo</text>
+<line class="divider" x1="14" y1="756" x2="376" y2="756"/>
+<text class="h2" x="59.25" y="786" text-anchor="middle">Today</text>
+<text class="muted" x="149.75" y="786" text-anchor="middle">Calendar</text>
+<text class="muted" x="240.25" y="786" text-anchor="middle">Stats</text>
+<text class="muted" x="330.75" y="786" text-anchor="middle">Profile</text>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <style>
+      .bg { fill:#ffffff; }
+      .frame { fill:none; stroke:#111827; stroke-width:2; rx:24; ry:24; }
+      .muted { fill:#6b7280; font-family: Inter, Arial, sans-serif; font-size:14px; }
+      .h1 { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:22px; font-weight:700; }
+      .h2 { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:16px; font-weight:700; }
+      .text { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:14px; }
+      .pill { fill:#f3f4f6; stroke:#d1d5db; stroke-width:1; }
+      .card { fill:#ffffff; stroke:#e5e7eb; stroke-width:2; }
+      .btn { fill:#111827; }
+      .btnText { fill:#ffffff; font-family: Inter, Arial, sans-serif; font-size:14px; font-weight:700; }
+      .chipText { fill:#111827; font-family: Inter, Arial, sans-serif; font-size:12px; font-weight:600; }
+      .icon { fill:#111827; }
+      .divider { stroke:#e5e7eb; stroke-width:2; }
+      .accent { fill:#111827; }
+      .outline { fill:none; stroke:#111827; stroke-width:2; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="390" height="844"/>
+<rect class="frame" x="14" y="14" width="362" height="816" rx="34" ry="34"/>
+<text class="muted" x="34" y="36" text-anchor="start">9:41</text>
+<text class="muted" x="316" y="36" text-anchor="end">●●●</text>
+<text class="h1" x="32" y="84" text-anchor="start">Add habit</text>
+<text class="muted" x="32" y="106" text-anchor="start">Create something you can track daily.</text>
+<text class="muted" x="32" y="144" text-anchor="start">Title</text>
+<rect class="card" x="32" y="156" width="326" height="52" rx="16" ry="16"/>
+<text class="muted" x="48" y="188" text-anchor="start">e.g., Read 20 minutes</text>
+<text class="muted" x="32" y="236" text-anchor="start">Schedule</text>
+<rect class="card" x="32" y="248" width="326" height="52" rx="16" ry="16"/>
+<text class="text" x="48" y="280" text-anchor="start">Daily</text>
+<text class="muted" x="342" y="280" text-anchor="end">▾</text>
+<text class="muted" x="32" y="320" text-anchor="start">Days (if weekly)</text>
+<rect class="pill" x="32" y="334" width="44" height="36" rx="14" ry="14"/>
+<text class="chipText" x="54.0" y="358" text-anchor="middle">Mon</text>
+<rect class="pill" x="84" y="334" width="44" height="36" rx="14" ry="14"/>
+<text class="chipText" x="106.0" y="358" text-anchor="middle">Tue</text>
+<rect class="pill" x="136" y="334" width="44" height="36" rx="14" ry="14"/>
+<text class="chipText" x="158.0" y="358" text-anchor="middle">Wed</text>
+<rect class="pill" x="188" y="334" width="44" height="36" rx="14" ry="14"/>
+<text class="chipText" x="210.0" y="358" text-anchor="middle">Thu</text>
+<rect class="pill" x="240" y="334" width="44" height="36" rx="14" ry="14"/>
+<text class="chipText" x="262.0" y="358" text-anchor="middle">Fri</text>
+<rect class="pill" x="292" y="334" width="44" height="36" rx="14" ry="14"/>
+<text class="chipText" x="314.0" y="358" text-anchor="middle">Sat</text>
+<rect class="pill" x="344" y="334" width="44" height="36" rx="14" ry="14"/>
+<text class="chipText" x="366.0" y="358" text-anchor="middle">Sun</text>
+<text class="muted" x="32" y="394" text-anchor="start">Goal</text>
+<rect class="card" x="32" y="406" width="326" height="52" rx="16" ry="16"/>
+<text class="text" x="48" y="438" text-anchor="start">1× per day</text>
+<text class="muted" x="342" y="438" text-anchor="end">▾</text>
+<text class="muted" x="32" y="486" text-anchor="start">Reminder (optional)</text>
+<rect class="card" x="32" y="498" width="326" height="52" rx="16" ry="16"/>
+<text class="text" x="48" y="530" text-anchor="start">20:00</text>
+<rect class="btn" x="32" y="680" width="326" height="54" rx="18" ry="18"/>
+<text class="btnText" x="195.0" y="716" text-anchor="middle">Save habit</text>
+<rect class="pill" x="32" y="746" width="326" height="54" rx="18" ry="18"/>
+<text class="chipText" x="195.0" y="782" text-anchor="middle">Cancel</text>
+</svg>
