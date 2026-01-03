@@ -11,15 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('habits', function (Blueprint $table) {
+        Schema::create('habit_logs', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->string('title', 255);
-            $table->text('description');
-            $table->foreignUuid('user_id')->constrained('users')->onDelete('cascade');
-            $table->jsonb('schedule')->nullable();
+            $table->foreignUuid('habit_id')->constrained('habits')->onDelete('cascade');
+            $table->date('log_date');
+            $table->boolean('completed')->default(true);
             $table->timestamps();
 
-            $table->index(['user_id', 'created_at']);
+            $table->unique(['habit_id', 'log_date']);
+            $table->index(['habit_id', 'log_date']);
+            $table->index('log_date');
         });
     }
 
@@ -28,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('habits');
+        Schema::dropIfExists('habit_logs');
     }
 };
